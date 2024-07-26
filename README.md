@@ -33,7 +33,7 @@ System must have:-
 Clone the repository, install requirements and run app.
 
 ```bash
-git clone https://github.com/SAFE-ICU/ShoQPred
+git clone https://github.com/aditya1000/SIgnose
 pip3 install -r requirements.txt
 python3 manage.py runserver
 ```
