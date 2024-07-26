@@ -33,6 +33,15 @@ System must have:-
 Clone the repository, install requirements and run app.
 
 ```bash
+
+python3 -m venv signose-env                    
+
+# Activate the virtual environment
+# On Windows
+signose-env\Scripts\activate
+# On macOS/Linux
+source signose-env/bin/activate
+
 git clone https://github.com/aditya1000/SIgnose
 pip3 install -r requirements.txt
 python3 manage.py runserver
