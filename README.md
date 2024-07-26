@@ -1,4 +1,4 @@
-# SIgnose - AI for Shock Prediction in ICU Validated across Continents
+# ShoQPred - AI for Shock Prediction in ICU Validated across Continents
 
 ## Predicting Hemodynamic shock using physiological vitals time-series data
 ShoQPred is Deployable Human Centric Software Suite for hemodynamic shock prediction which leverages AI and ML methods on physiological vitals time-series data to predict hemodynamic shock prediction upto 3 to 12 hours before the event.
@@ -33,16 +33,7 @@ System must have:-
 Clone the repository, install requirements and run app.
 
 ```bash
-
-python3 -m venv signose-env                    
-
-# Activate the virtual environment
-# On Windows
-signose-env\Scripts\activate
-# On macOS/Linux
-source signose-env/bin/activate
-
-git clone https://github.com/aditya1000/SIgnose
+git clone https://github.com/SAFE-ICU/ShoQPred
 pip3 install -r requirements.txt
 python3 manage.py runserver
 ```
