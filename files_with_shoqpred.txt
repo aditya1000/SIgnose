@@ -1,0 +1,11 @@
+./core/templates/layouts/main.html
+./core/templates/pages/startXGB.html
+./README.md
+./.git/config
+./.git/logs/HEAD
+./.git/logs/refs/heads/master
+./.git/logs/refs/remotes/origin/HEAD
+./.git/index
+./.idea/.gitignore
+./.idea/modules.xml
+./.idea/misc.xml
