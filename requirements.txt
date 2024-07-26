@@ -11,5 +11,6 @@ python-decouple
 gunicorn
 whitenoise
 django-heroku
-tsfresh==0.18.0
+tsfresh=0.18.0
 scikit-learn
+statsmodels==0.12.2
