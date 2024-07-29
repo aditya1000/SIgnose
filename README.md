@@ -20,7 +20,7 @@ Create DockerHub Account and login on docker command line using ```docker login`
 ```bash
 docker pull  psinghnitk/signosexgb:latest
 
-docker run --name SIgnose-app -p 5005:5005  psinghnitk/signosexgb:latest
+docker run --name signose-app -p 5005:5005  psinghnitk/signosexgb:latest
 
 ```
 App will run on localhost:5005
