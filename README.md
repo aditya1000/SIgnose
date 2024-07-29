@@ -1,7 +1,7 @@
-# ShoQPred - AI for Shock Prediction in ICU Validated across Continents
+# SIgnose - AI for Shock Prediction in ICU Validated across Continents
 
 ## Predicting Hemodynamic shock using physiological vitals time-series data
-ShoQPred is Deployable Human Centric Software Suite for hemodynamic shock prediction which leverages AI and ML methods on physiological vitals time-series data to predict hemodynamic shock prediction upto 3 to 12 hours before the event.
+SIgnose is Deployable Human Centric Software Suite for hemodynamic shock prediction which leverages AI and ML methods on physiological vitals time-series data to predict hemodynamic shock prediction upto 3 to 12 hours before the event.
 
 ## Requirements
 1. Python 3.6+ / Django
@@ -20,7 +20,7 @@ Create DockerHub Account and login on docker command line using ```docker login`
 ```bash
 docker pull  psinghnitk/signosexgb:latest
 
-docker run --name shoqpred-app -p 5005:5005  psinghnitk/signosexgb:latest
+docker run --name SIgnose-app -p 5005:5005  psinghnitk/signosexgb:latest
 
 ```
 App will run on localhost:5005
@@ -35,7 +35,7 @@ System must have:-
 Clone the repository, install requirements and run app.
 
 ```bash
-git clone https://github.com/SAFE-ICU/ShoQPred
+git clone https://github.com/SAFE-ICU/SIgnose
 pip3 install -r requirements.txt
 python3 manage.py runserver
 ```
