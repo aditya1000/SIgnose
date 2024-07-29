@@ -18,8 +18,10 @@ Readily available installation, user can pull the docker image from docker hub, 
 Create DockerHub Account and login on docker command line using ```docker login```. Pull and run app.
 
 ```bash
-docker pull raptor4/shoqpredxgb:latest
-docker run --name shoqpred-app -p 5005:5005 raptor4/shoqpredxgb:latest
+docker pull  psinghnitk/signosexgb:latest
+
+docker run --name shoqpred-app -p 5005:5005  psinghnitk/signosexgb:latest
+
 ```
 App will run on localhost:5005
 
